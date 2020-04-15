@@ -13,5 +13,21 @@ const Greet=(props)=>{
    
    )}
 
+   //Destructuring in functional components in 2ways
+//    const Greet=({name,hero})=>{
+//     return(<div>
+//         <h>Hello  {name} a.k.a {hero}</h>
+//         {/* {props.children} */}
+//     </div>
+    
+//     )}
 
+    // const Greet=(props)=>{
+    //     const {name,hero}=props
+    //     return(<div>
+    //         <h>Hello  {name} a.k.a {hero}</h>
+    //         {/* {props.children} */}
+    //     </div>
+        
+        // )}
 export default Greet
