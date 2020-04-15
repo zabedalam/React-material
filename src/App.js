@@ -8,9 +8,11 @@ import Greet from "../src/components/Greet"
 
 import Welcome from "../src/components/Welcome"
 import Message from './components/Message';
+import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
+      <Counter></Counter>
       <Message></Message>
      <Greet name={"Alam"} hero={"robinhood"}><p>I am from Bangladesh</p></Greet>
      <Greet name={"Zabed"} hero={"robinhood"}><p>I am from Denmark</p></Greet>
