@@ -17,7 +17,7 @@ class EventBind extends Component {
   //     })
   // }
 
-  //For 3 option this is still on research level but also very good option
+  //For 4 option this is still on research level but also very good option
   clickHandler = () => {
     this.setState({
       message: "Bye",
