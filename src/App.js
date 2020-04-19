@@ -15,10 +15,23 @@ import EventBind from './components/EventBind';
 import ParentComponent from "./components/ParentComponent"
 import UserGreetings from './components/UserGreetings';
 import NameList from './components/NameList';
+import StyleSheet from './components/StyleSheet';
+import "../src/components/appStyle.css"
+import styles from "../src/components/appStyle.module.css"
+
 
 function App() {
   return (
     <div className="App">
+    {/* // module style technique in css */}
+    <h1 className="error">error</h1>
+    <h1 className={styles.success}>Success</h1>
+      {/* 2 approach of styling */}
+            {/* <StyleSheet primary={true}></StyleSheet> */}
+            {/* //inline approach */}
+            <StyleSheet></StyleSheet>
+      {/* 1 approach of styling */}
+      {/* <StyleSheet></StyleSheet> */}
       <NameList></NameList>
       <UserGreetings></UserGreetings>
       <ParentComponent></ParentComponent>
