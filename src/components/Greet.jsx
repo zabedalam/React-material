@@ -7,7 +7,7 @@ import React from "react"
 // export const Greet=()=><h>Hello Alam</h>
 const Greet=(props)=>{
    return(<div>
-       <h>Hello  {props.name} a.k.a {props.hero}</h>
+       <h1>Hello  {props.name} a.k.a {props.hero}</h1>
        {props.children}
    </div>
    

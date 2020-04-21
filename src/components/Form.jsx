@@ -29,11 +29,14 @@ class Form extends Component {
   };
 
   handleSubmit = (event) => {
+    event.preventDefault()
     alert(`${this.state.username} ${this.state.comments} ${this.state.topic}`);
+    
   };
   render() {
     return (
       <>
+      <div>
         <Form onSubmit={this.handleSubmit}>
           <div>
             <label>Name</label>
@@ -60,6 +63,7 @@ class Form extends Component {
           </div>
           <button type="submit">Submit</button>
         </Form>
+        </div>
       </>
     );
   }

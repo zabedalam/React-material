@@ -18,24 +18,26 @@ import NameList from './components/NameList';
 import StyleSheet from './components/StyleSheet';
 import "../src/components/appStyle.css"
 import styles from "../src/components/appStyle.module.css"
-import Form from "./components/Form"
+import Form from "../src/components/Form"
+import LifeCycleA from './components/LifeCycleA';
 
 
 
 function App() {
   return (
     <div className="App">
-      <Form></Form>
+      <LifeCycleA></LifeCycleA>
+      {/* <Form></Form> */}
     {/* // module style technique in css */}
-    <h1 className="error">error</h1>
-    <h1 className={styles.success}>Success</h1>
+    {/* <h1 className="error">error</h1>
+    <h1 className={styles.success}>Success</h1> */}
       {/* 2 approach of styling */}
             {/* <StyleSheet primary={true}></StyleSheet> */}
             {/* //inline approach */}
-            <StyleSheet></StyleSheet>
+            {/* <StyleSheet></StyleSheet> */}
       {/* 1 approach of styling */}
       {/* <StyleSheet></StyleSheet> */}
-      {/* <NameList></NameList>
+      <NameList></NameList>
       <UserGreetings></UserGreetings>
       <ParentComponent></ParentComponent>
       <EventBind></EventBind>
@@ -44,10 +46,10 @@ function App() {
       <Counter></Counter>
       <Message></Message>
      <Greet name={"Alam"} hero={"robinhood"}><p>I am from Bangladesh</p></Greet>
-     <Greet name={"Zabed"} hero={"robinhood"}><p>I am from Denmark</p></Greet> */}
+     <Greet name={"Zabed"} hero={"robinhood"}><p>I am from Denmark</p></Greet>
 
      {/* <MyComponent></MyComponent> */}
-     <Welcome name={"Alam"} hero={"robinhood"}><p>I am from Bangladesh</p></Welcome>
+     {/* <Welcome name={"Alam"} hero={"robinhood"}><p>I am from Bangladesh</p></Welcome> */}
     </div>
   );
 }
