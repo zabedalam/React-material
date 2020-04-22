@@ -20,6 +20,8 @@ import "../src/components/appStyle.css"
 import styles from "../src/components/appStyle.module.css"
 import Form from "../src/components/Form"
 import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+
 
 
 
@@ -27,6 +29,7 @@ function App() {
   return (
     <div className="App">
       <LifeCycleA></LifeCycleA>
+      <FragmentDemo></FragmentDemo>
       {/* <Form></Form> */}
     {/* // module style technique in css */}
     {/* <h1 className="error">error</h1>
