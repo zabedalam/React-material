@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import logo from './logo.svg';
 import './App.css';
 // import { Greet } from './components/Greet';
@@ -21,6 +21,8 @@ import styles from "../src/components/appStyle.module.css"
 import Form from "../src/components/Form"
 import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
+import PureComp from "./components/PureComp"
+import ParentComp from "./components/ParentComp"
 
 
 
@@ -28,6 +30,8 @@ import FragmentDemo from './components/FragmentDemo';
 function App() {
   return (
     <div className="App">
+      {/* <PureComp></PureComp> */}
+      <ParentComp></ParentComp>
       <LifeCycleA></LifeCycleA>
       <FragmentDemo></FragmentDemo>
       {/* <Form></Form> */}
