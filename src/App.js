@@ -27,6 +27,8 @@ import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverComponent from './components/HoverComponent';
 
 
 
@@ -34,16 +36,18 @@ import ErrorBoundary from './components/ErrorBoundary';
 function App() {
   return (
     <div className="App">
-      <ErrorBoundary><Hero heroName='zabed'></Hero></ErrorBoundary>
+      <ClickCounter></ClickCounter>
+      <HoverComponent></HoverComponent>
+      {/* <ErrorBoundary><Hero heroName='zabed'></Hero></ErrorBoundary>
       <ErrorBoundary><Hero heroName='zaif'></Hero></ErrorBoundary>
-      <ErrorBoundary><Hero heroName='Jocker'></Hero></ErrorBoundary>
+      <ErrorBoundary><Hero heroName='Jocker'></Hero></ErrorBoundary> */}
       
-      <FocusInput></FocusInput>
+      {/* <FocusInput></FocusInput>
       <RefsDemo></RefsDemo>
       {/* <PureComp></PureComp> */}
-      <ParentComp></ParentComp>
+      {/* <ParentComp></ParentComp>
       <LifeCycleA></LifeCycleA>
-      <FragmentDemo></FragmentDemo>
+      <FragmentDemo></FragmentDemo> */} 
       {/* <Form></Form> */}
     {/* // module style technique in css */}
     {/* <h1 className="error">error</h1>
@@ -54,7 +58,7 @@ function App() {
             {/* <StyleSheet></StyleSheet> */}
       {/* 1 approach of styling */}
       {/* <StyleSheet></StyleSheet> */}
-      <NameList></NameList>
+      {/* <NameList></NameList>
       <UserGreetings></UserGreetings>
       <ParentComponent></ParentComponent>
       <EventBind></EventBind>
@@ -63,7 +67,7 @@ function App() {
       <Counter></Counter>
       <Message></Message>
      <Greet name={"Alam"} hero={"robinhood"}><p>I am from Bangladesh</p></Greet>
-     <Greet name={"Zabed"} hero={"robinhood"}><p>I am from Denmark</p></Greet>
+     <Greet name={"Zabed"} hero={"robinhood"}><p>I am from Denmark</p></Greet> */}
 
      {/* <MyComponent></MyComponent> */}
      {/* <Welcome name={"Alam"} hero={"robinhood"}><p>I am from Bangladesh</p></Welcome> */}
