@@ -36,7 +36,7 @@ import HoverComponent from './components/HoverComponent';
 function App() {
   return (
     <div className="App">
-      <ClickCounter></ClickCounter>
+      <ClickCounter name='zabed'></ClickCounter>
       <HoverComponent></HoverComponent>
       {/* <ErrorBoundary><Hero heroName='zabed'></Hero></ErrorBoundary>
       <ErrorBoundary><Hero heroName='zaif'></Hero></ErrorBoundary>

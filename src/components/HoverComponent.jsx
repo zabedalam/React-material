@@ -27,4 +27,4 @@ class HoverComponent extends Component {
   }
 }
 
-export default withCounter(HoverComponent)//instead of exporting clickCounter component we are exporting higher order component
+export default withCounter(HoverComponent,10)//instead of exporting clickCounter component we are exporting higher order component
