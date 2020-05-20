@@ -29,6 +29,8 @@ import Hero from './components/Hero';
 import ErrorBoundary from './components/ErrorBoundary';
 import ClickCounter from './components/ClickCounter';
 import HoverComponent from './components/HoverComponent';
+import ClickCounterTwo from './components/ClickCounterTwo';
+import HoveredComponentTwo from './components/HoveredComponentTwo';
 
 
 
@@ -36,8 +38,10 @@ import HoverComponent from './components/HoverComponent';
 function App() {
   return (
     <div className="App">
-      <ClickCounter name='zabed'></ClickCounter>
-      <HoverComponent></HoverComponent>
+      <ClickCounterTwo></ClickCounterTwo>
+      <HoveredComponentTwo></HoveredComponentTwo>
+      {/* <ClickCounter name='zabed'></ClickCounter>
+      <HoverComponent></HoverComponent> */}
       {/* <ErrorBoundary><Hero heroName='zabed'></Hero></ErrorBoundary>
       <ErrorBoundary><Hero heroName='zaif'></Hero></ErrorBoundary>
       <ErrorBoundary><Hero heroName='Jocker'></Hero></ErrorBoundary> */}
