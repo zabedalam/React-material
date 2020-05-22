@@ -32,11 +32,17 @@ import ClickCounterTwo from "./components/ClickCounterTwo";
 import HoveredComponentTwo from "./components/HoveredComponentTwo";
 import User from "./components/User";
 import CounterRenderProps from "./components/CounterRenderProps";
+import ComponentC from "./components/ComponentC";
+import { UserProvider } from "./components/UserContext";
 
 function App() {
   return (
     <div className="App">
-      <CounterRenderProps
+      <UserProvider value='zabed'>
+        <ComponentC></ComponentC>
+      </UserProvider>
+
+      {/* <CounterRenderProps
       // render={(count, incrementHandler) => (
       //   <ClickCounterTwo
       //     count={count}
@@ -65,7 +71,7 @@ function App() {
             incrementHandler={incrementHandler}
           ></HoveredComponentTwo>
         )}
-      </CounterRenderProps>
+      </CounterRenderProps> */}
       {/* <ClickCounterTwo></ClickCounterTwo>
       <HoveredComponentTwo></HoveredComponentTwo>
       <User render={(isLogged)=>isLogged?'zabed':'guest'}></User> */}
