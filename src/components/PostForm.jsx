@@ -14,7 +14,7 @@ class PostForm extends Component {
     }
     changeHandler=(e)=>{
         this.setState({
-            [e.taget.name]:e.taget.value
+            [e.target.name]:e.target.value
         })
     }
     submitHandler=e=>{
