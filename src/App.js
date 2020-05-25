@@ -35,14 +35,16 @@ import CounterRenderProps from "./components/CounterRenderProps";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/UserContext";
 import PostList from "./components/PostList";
+import PostForm from "./components/PostForm";
 
 function App() {
   return (
     <div className="App">
-      <PostList></PostList>
+      <PostForm></PostForm>
+      {/* <PostList></PostList>
       <UserProvider value='zabed'>
         <ComponentC></ComponentC>
-      </UserProvider>
+      </UserProvider> */}
 
       {/* <CounterRenderProps
       // render={(count, incrementHandler) => (
