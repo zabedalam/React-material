@@ -34,10 +34,12 @@ import User from "./components/User";
 import CounterRenderProps from "./components/CounterRenderProps";
 import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/UserContext";
+import PostList from "./components/PostList";
 
 function App() {
   return (
     <div className="App">
+      <PostList></PostList>
       <UserProvider value='zabed'>
         <ComponentC></ComponentC>
       </UserProvider>
