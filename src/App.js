@@ -36,10 +36,12 @@ import ComponentC from "./components/ComponentC";
 import { UserProvider } from "./components/UserContext";
 import PostList from "./components/PostList";
 import PostForm from "./components/PostForm";
+import HookCounter from "./components/HookCounter";
 
 function App() {
   return (
     <div className="App">
+      <HookCounter></HookCounter>
       <PostForm></PostForm>
       {/* <PostList></PostList>
       <UserProvider value='zabed'>
